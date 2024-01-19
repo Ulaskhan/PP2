@@ -1,1 +1,1 @@
-print("Ulaskhan")
+print("eskendir")
