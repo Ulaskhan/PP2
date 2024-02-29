@@ -20,7 +20,6 @@ def filter_movies_by_imdb_higher_5_5(movies: [Movie]) -> [Movie]:
 def filter_movies_by_categories(movies: [Movie], categories: [str]) -> [Movie]:
     return [movie for movie in movies if movie.category in categories]
 
-# 4
 def average_movies_imdb(movies: [Movie]) -> float:
     return sum(movie.imdb for movie in movies) / len(movies)
 

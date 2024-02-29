@@ -5,7 +5,7 @@ def gram_to_ounce(grams: int) -> int:
     return grams * 28.3495231
 
 # 2
-def fahrenheit_centigrade(fahrenheit: float) -> float:
+def fahrenheit_centigrade(*fahrenheit: float) -> float:
     return (fahrenheit - 32) * 5 / 9
 
 # 3
