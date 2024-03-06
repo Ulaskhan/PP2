@@ -48,7 +48,7 @@ def write_list_to_file(filename, my_list):
 # 6. Generate 26 text files named A.txt, B.txt, ... Z.txt
 def generate_files():
     for letter in string.ascii_uppercase:
-        with open(f"C:\\Users\\Alibek\\Documents\\{letter}.txt", 'w') as file:
+        with open(f"/Users/ulaskhan/Desktop/PP2 python/TSIS 6\{letter}.txt", 'w') as file:
             file.write(f"This is file {letter}.txt")
 
 # 7. Copy the contents of a file to another file
