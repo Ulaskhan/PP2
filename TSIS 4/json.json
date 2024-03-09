@@ -1,0 +1,26 @@
+"linkLog": "default",
+                    "mdix": "auto",
+                    "medium": "broadcast",
+                    "modTs": "2016-11-28T16:03:29.317-05:00",
+                    "mode": "trunk",
+                    "monPolDn": "uni/fabric/monfab-default",
+                    "mtu": "9150",
+                    "name": "",
+                    "pathSDescr": "",
+                    "portT": "fab",
+                    "prioFlowCtrl": "auto",
+                    "qiqL2ProtTunMask": "",
+                    "routerMac": "not-applicable",
+                    "snmpTrapSt": "enable",
+                    "spanMode": "not-a-span-dest",
+                    "speed": "inherit",
+                    "status": "",
+                    "switchingSt": "disabled",
+                    "trunkLog": "default",
+                    "usage": "fabric,fabric-ext"
+                }
+            }
+          }
+        }
+    }
+}s
