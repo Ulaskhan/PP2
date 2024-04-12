@@ -1,0 +1,1 @@
+ new coin every 3 seconds
