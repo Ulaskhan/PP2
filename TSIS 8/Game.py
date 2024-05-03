@@ -84,7 +84,7 @@ class Coin(pygame.sprite.Sprite):
 P1 = Player()
 E1 = Enemy()
 
-
+is_paused = False
 enemies = pygame.sprite.Group()
 enemies.add(E1)
 all_sprites = pygame.sprite.Group()
@@ -110,6 +110,8 @@ while True:
         elif event.type == QUIT:
             pygame.quit()
             sys.exit()
+
+ 
 
     DISPLAYSURF.blit(background, (0, 0))
     scores = font_small.render("Coins: " + str(SCORE), True, BLACK)
